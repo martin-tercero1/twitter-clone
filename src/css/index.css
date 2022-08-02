@@ -1,0 +1,176 @@
+.helper {
+    margin: 0 auto;
+}
+
+.header {
+    margin: 20px;
+    margin: 30px 15px;
+}
+
+.header--icon {
+    color: var(--twitter-color-darkmode);
+    font-size: 4rem;
+}
+
+.header--icon__white {
+    color: white;
+    font-size: 20rem;
+}
+
+.main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main--titles {
+    margin: 20px 0;
+    font-weight: 700;
+    max-width: 300px;
+}
+
+.titles--title {
+    color: var(--font-color);
+    font-size: 2rem;
+}
+
+h1.titles--title {
+    font-size: 3.4rem;
+    margin-bottom: 15px;
+    width: 65vw;
+}
+
+.main--buttons {
+    width: 80vw;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+.main--buttons h3 {
+    color: white;
+    font-size: 1.6rem;
+    margin-top: 8vh;
+}
+
+.main--button{
+padding: 10px;
+border: none;
+font-size: 1.45rem;
+margin: 10px 0;
+border-radius: 20px;
+width: 100%;
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+cursor: pointer;
+}
+
+.main--button__white {
+    background-color: white;
+}
+
+.main--button__blue {
+    background-color: var(--brand-color);
+    color: white;
+}
+
+.main--button__black {
+    background-color: black;
+    color: var(--brand-color);
+    border: 0.5px solid var(--brand-color);
+    margin-bottom: 6vh;
+}
+
+.main--division{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--font-color);
+}
+
+.main--division div {
+    width: 45%;
+    border-top: 1px solid var(--font-color);
+}
+
+.main--text {
+     font-size: 1.4rem;
+     margin: 5px 0 20px;
+     color: var(--small-font-color);
+}
+
+.text--link {
+    color: var(--brand-color);
+}
+
+.main--button__white-blue {
+    color: var(--brand-color);
+}
+
+.main--background {
+    width: 100%;
+    height: 30vh;
+    background-image: url(../background-twitter.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+footer {
+    width: 100%;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+.footer--list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer--list li, .footer--list p {
+    margin: 3px 6px;
+}
+
+.footer--list li a, .footer--list p {
+    color: #71767b;
+}
+
+
+@media (min-width: 768px) {
+    h1.titles--title {
+        font-size: 7rem;
+    }
+
+    .main--buttons {
+        width: 50vw;
+    }
+}
+
+@media (min-width: 1001px) {
+    .helper {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100vw;
+        height: 92vh;
+    }
+
+    .main  {
+        width: 50vw;
+    }
+
+    .main--background {
+        width: 50vw;
+        height: 100%;
+        background-position: center;
+    }
+
+    footer {
+        height: 8vh;
+    }
+}
+
